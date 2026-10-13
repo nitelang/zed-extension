@@ -1,0 +1,13 @@
+[package]
+name = "zed_nite"
+version = "1.0.0"
+edition = "2021"
+publish = false
+license = "MIT"
+
+[lib]
+path = "src/nite.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.7.0"
