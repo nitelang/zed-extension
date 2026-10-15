@@ -8,7 +8,6 @@ authors = [
 ]
 repository = "https://github.com/nitelang/zed-extension"
 
-[grammars.yaml]
-repository = "https://github.com/tree-sitter-grammars/tree-sitter-yaml"
-commit = "a1c4812a73ec5e089de8e441fdea3a921e8d5079"
-path = "yaml"
+[grammars.nite]
+repository = "https://github.com/nitelang/tree-sitter-nite"
+rev = "43537096912107f6b4f6722c86f64fe0c30633d6"
