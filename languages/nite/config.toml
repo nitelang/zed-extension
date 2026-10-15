@@ -4,6 +4,8 @@ grammar = "nite"
 path_suffixes = ["nite"]
 line_comments = ["// ", "/// "]
 autoclose_before = ";:.,=}])>"
+hard_tabs = true
+tab_size = 4
 brackets = [
     { start = "{", end = "}", close = true, newline = true },
     { start = "[", end = "]", close = true, newline = true },
